@@ -36,7 +36,7 @@ export default function LabelPosition() {
       tl.to(
          box1,
          {
-            x: 600,
+            x: window?.outerWidth / 2,
             border: "5px solid #f00",
             width: "50px",
             height: "50px",
